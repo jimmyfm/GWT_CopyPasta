@@ -1,5 +1,5 @@
-# { 2 }
-# { 'user.agent' : 'ie9' }
+# { 1 }
+# { 'user.agent' : 'ie10' }
 # jsName, jsniIdent, className, memberName, sourceUri, sourceLine, fragmentNumber
 JavaScriptException,,com.google.gwt.core.client.JavaScriptException,,com/google/gwt/core/client/JavaScriptException.java,46,-1
 com_google_gwt_core_client_JavaScriptException_$clinit__V,com.google.gwt.core.client.JavaScriptException::$clinit()V,com.google.gwt.core.client.JavaScriptException,$clinit,com/google/gwt/core/client/JavaScriptException.java,46,0
@@ -419,7 +419,7 @@ com_google_gwt_user_client_ui_WidgetCollection$WidgetIterator_this$01,com.google
 com_google_gwt_useragent_client_UserAgentAsserter_assertCompileTimeUserAgent__V,com.google.gwt.useragent.client.UserAgentAsserter::assertCompileTimeUserAgent()V,com.google.gwt.useragent.client.UserAgentAsserter,assertCompileTimeUserAgent,com/google/gwt/useragent/client/UserAgentAsserter.java,49,0
 UserAgentAsserter$UserAgentAssertionError,,com.google.gwt.useragent.client.UserAgentAsserter$UserAgentAssertionError,,com/google/gwt/useragent/client/UserAgentAsserter.java,65,-1
 com_google_gwt_useragent_client_UserAgentAsserter$UserAgentAssertionError_UserAgentAsserter$UserAgentAssertionError__Ljava_lang_String_2Ljava_lang_String_2V,com.google.gwt.useragent.client.UserAgentAsserter$UserAgentAssertionError::UserAgentAsserter$UserAgentAssertionError(Ljava/lang/String;Ljava/lang/String;) <init>,com.google.gwt.useragent.client.UserAgentAsserter$UserAgentAssertionError,UserAgentAsserter$UserAgentAssertionError,com/google/gwt/useragent/client/UserAgentAsserter.java,79,0
-com_google_gwt_useragent_client_UserAgentImplIe9_$getRuntimeValue__Lcom_google_gwt_useragent_client_UserAgentImplIe9_2Ljava_lang_String_2,com.google.gwt.useragent.client.UserAgentImplIe9::$getRuntimeValue(Lcom/google/gwt/useragent/client/UserAgentImplIe9;)Ljava/lang/String;,com.google.gwt.useragent.client.UserAgentImplIe9,$getRuntimeValue,gen/com/google/gwt/useragent/client/UserAgentImplIe9.java,5,0
+com_google_gwt_useragent_client_UserAgentImplIe10_$getRuntimeValue__Lcom_google_gwt_useragent_client_UserAgentImplIe10_2Ljava_lang_String_2,com.google.gwt.useragent.client.UserAgentImplIe10::$getRuntimeValue(Lcom/google/gwt/useragent/client/UserAgentImplIe10;)Ljava/lang/String;,com.google.gwt.useragent.client.UserAgentImplIe10,$getRuntimeValue,gen/com/google/gwt/useragent/client/UserAgentImplIe10.java,5,0
 Event,,com.google.web.bindery.event.shared.Event,,com/google/web/bindery/event/shared/Event.java,23,-1
 com_google_web_bindery_event_shared_Event_source,com.google.web.bindery.event.shared.Event::source,com.google.web.bindery.event.shared.Event,source,com/google/web/bindery/event/shared/Event.java,51,-1
 com_google_web_bindery_event_shared_Event_toString__Ljava_lang_String_2,com.google.web.bindery.event.shared.Event::toString()Ljava/lang/String;,com.google.web.bindery.event.shared.Event,toString,com/google/web/bindery/event/shared/Event.java,102,0
@@ -456,11 +456,11 @@ com_google_web_bindery_event_shared_UmbrellaException_causes,com.google.web.bind
 com_google_web_bindery_event_shared_UmbrellaException_makeCause__Ljava_util_Set_2Ljava_lang_Throwable_2,com.google.web.bindery.event.shared.UmbrellaException::makeCause(Ljava/util/Set;)Ljava/lang/Throwable;,com.google.web.bindery.event.shared.UmbrellaException,makeCause,com/google/web/bindery/event/shared/UmbrellaException.java,36,0
 com_google_web_bindery_event_shared_UmbrellaException_makeMessage__Ljava_util_Set_2Ljava_lang_String_2,com.google.web.bindery.event.shared.UmbrellaException::makeMessage(Ljava/util/Set;)Ljava/lang/String;,com.google.web.bindery.event.shared.UmbrellaException,makeMessage,com/google/web/bindery/event/shared/UmbrellaException.java,45,0
 CopyPasta,,copypasta.client.CopyPasta,,copypasta/client/CopyPasta.java,12,-1
-copypasta_client_CopyPasta_$addCutHandler__Lcopypasta_client_CopyPasta_2Lcom_google_gwt_dom_client_Element_2V,copypasta.client.CopyPasta::$addCutHandler(Lcopypasta/client/CopyPasta;Lcom/google/gwt/dom/client/Element;)V,copypasta.client.CopyPasta,$addCutHandler,copypasta/client/CopyPasta.java,28,0
+copypasta_client_CopyPasta_$addCopyPastaHandler__Lcopypasta_client_CopyPasta_2Lcom_google_gwt_dom_client_Element_2V,copypasta.client.CopyPasta::$addCopyPastaHandler(Lcopypasta/client/CopyPasta;Lcom/google/gwt/dom/client/Element;)V,copypasta.client.CopyPasta,$addCopyPastaHandler,copypasta/client/CopyPasta.java,28,0
 copypasta_client_CopyPasta_$onModuleLoad__Lcopypasta_client_CopyPasta_2V,copypasta.client.CopyPasta::$onModuleLoad(Lcopypasta/client/CopyPasta;)V,copypasta.client.CopyPasta,$onModuleLoad,copypasta/client/CopyPasta.java,17,0
 copypasta_client_CopyPasta_CopyPasta__V,copypasta.client.CopyPasta::CopyPasta() <init>,copypasta.client.CopyPasta,CopyPasta,copypasta/client/CopyPasta.java,12,0
-copypasta_client_CopyPasta_getTextForClipboard__Ljava_lang_String_2,copypasta.client.CopyPasta::getTextForClipboard()Ljava/lang/String;,copypasta.client.CopyPasta,getTextForClipboard,copypasta/client/CopyPasta.java,54,0
-copypasta_client_CopyPasta_handleOnPaste__Ljava_lang_String_2V,copypasta.client.CopyPasta::handleOnPaste(Ljava/lang/String;)V,copypasta.client.CopyPasta,handleOnPaste,copypasta/client/CopyPasta.java,58,0
+copypasta_client_CopyPasta_getTextForClipboard__Ljava_lang_String_2,copypasta.client.CopyPasta::getTextForClipboard()Ljava/lang/String;,copypasta.client.CopyPasta,getTextForClipboard,copypasta/client/CopyPasta.java,68,0
+copypasta_client_CopyPasta_handleOnPaste__Ljava_lang_String_2V,copypasta.client.CopyPasta::handleOnPaste(Ljava/lang/String;)V,copypasta.client.CopyPasta,handleOnPaste,copypasta/client/CopyPasta.java,77,0
 AbstractStringBuilder,,java.lang.AbstractStringBuilder,,com/google/gwt/emul/java/lang/AbstractStringBuilder.java,24,-1
 java_lang_AbstractStringBuilder_string,java.lang.AbstractStringBuilder::string,java.lang.AbstractStringBuilder,string,com/google/gwt/emul/java/lang/AbstractStringBuilder.java,26,-1
 java_lang_AbstractStringBuilder_toString__Ljava_lang_String_2,java.lang.AbstractStringBuilder::toString()Ljava/lang/String;,java.lang.AbstractStringBuilder,toString,com/google/gwt/emul/java/lang/AbstractStringBuilder.java,108,0
